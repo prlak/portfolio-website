@@ -29,15 +29,15 @@
 }
 
 .i-name {
-  font-size: 60px;
+  font-size: 70px;
 }
 
-.i-title {
+.i-head {
   height: 50px;
   overflow: hidden;
 }
 
-.i-title-wrapper {
+.i-head-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
 }
@@ -57,11 +57,11 @@
   }
 }
 
-.i-title-item {
+.i-head-item {
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: #59b256;
+  color: blue;
   display: flex;
   align-items: center;
 }
@@ -82,7 +82,7 @@
 
 .i-bg {
   clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  background-color: #59b256;
+  background-color: #DADDFC;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -108,4 +108,9 @@
     display: none;
   }
   
+  .i-head {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
 }

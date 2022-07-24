@@ -5,6 +5,7 @@ import Address from "../../img/address.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
+import Swal from 'sweetalert2'
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,14 +17,21 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_1jme3tz",
+        "template_ygctc4u",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "user_q71OllNXWjb0ZDa75tNlJ"
       )
       .then(
         (result) => {
+          Swal.fire({
+            icon: 'success',
+            title: 'Your E-mail has been sent',
+            showConfirmButton: false,
+            timer: 1500
+          })
           console.log(result.text);
+          document.getElementById("myform").reset();
           setDone(true)
         },
         (error) => {
@@ -41,30 +49,30 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +1 1234 556 75
+              +917259283492
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-              contact@lama.dev
+              lakshmiharan1@gmail.com
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              245 King Street, Touterie Victoria 8520 Australia
+              Bengaluru, India
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>How can I help?</b> Get in touch. Always available for
+            freelancing if the right project comes along!
           </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
+          <form id="myform" ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
+            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject"/>
+            <input style={{backgroundColor: darkMode && "#333"}} type="email" placeholder="Email" name="user_email" required/>
+            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" required/>
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done}
           </form>
         </div>
       </div>

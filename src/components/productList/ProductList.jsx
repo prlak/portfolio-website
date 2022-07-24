@@ -6,16 +6,15 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's Lama</h1>
+        <h1 className="pl-title">Curiosity to dive-in and dig deep!</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+        I have worked on various projects which range from data analytics, to visualisation to machine learning and deep learning. 
+        You can also find web-dev comissioned and personal projects
         </p>
       </div>
       <div className="pl-list">
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+          <Product key={item.id} img={item.img} link={item.link} title={item.title} desp={item.desp}/>
         ))}
       </div>
     </div>

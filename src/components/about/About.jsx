@@ -1,15 +1,16 @@
+import React from 'react';
 import "./about.css";
-import Award from "../../img/award.png";
+import Data from "../../img/data.jpg"
+
 
 const About = () => {
   return (
-    <div className="a">
+<div className="a">
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt=""
+            src={Data}
             className="a-img"
           />
         </div>
@@ -17,28 +18,29 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          Data Scientist and Web Developer
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          You can say that I am a data crack and that data speaks to me. Well, the data
+          actually speaks for itself and I just bring it out using visualisation and predict outcomes using Machine Learning!
+        </p>
+        <p className="a-desc">
+          And, as a web developer I have a knack for making creative websites that stands out among the others! 
+          Being a full stack developer I have aptitude to make simple yet effective web apps!
         </p>
         <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
+          {/* <img src={Award} alt="" className="a-award-img" /> */}
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
-            <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+            <h4 className="a-award-title">Fun facts!</h4>
+            <p className="a-desc">
+              Besides hoarding data and analysing them and making webistes,
+              I am a professional Bharatnatyam dancer, an Indian classical artform. I love watching movies and enjoy travelling and exploring new places!
             </p>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
