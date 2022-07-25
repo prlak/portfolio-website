@@ -17,22 +17,22 @@ export const products = [
     id: 3,
     img: "https://img.theweek.in/content/dam/week/news/sci-tech/2019/October/zomato-food-packet-delivery-food-app-shut.jpg",
     title: "Zomato Delivery Analysis",
-    desp: "Delving into Zomato restaurants data to understand the customer's favourites and predicting restaurant ratings using XGBoost",
+    desp: "Zomato's restaurants data to understand the customer's favourites and predicting restaurant ratings using XGBoost",
     link: "https://github.com/prlak/zomato/blob/main/Zomato.ipynb",
   },
   {
     id: 4,
     img: "",
-    link: "http://lama.dev",
+    link: "",
   },
   {
     id: 5,
     img: "",
-    link: "http://lama.dev",
+    link: "",
   },
   {
     id: 6,
     img: "",
-    link: "http://lama.dev",
+    link: "",
   },
 ];
