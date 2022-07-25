@@ -15,7 +15,7 @@ export const products = [
   },
   {
     id: 3,
-    img: "https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/08/Zomato-Machine-Learning-1-2048x1152.jpg",
+    img: "https://img.theweek.in/content/dam/week/news/sci-tech/2019/October/zomato-food-packet-delivery-food-app-shut.jpg",
     title: "Zomato Delivery Analysis",
     desp: "Delving into Zomato restaurants data to understand the customer's favourites and predicting restaurant ratings using XGBoost",
     link: "https://github.com/prlak/zomato/blob/main/Zomato.ipynb",
