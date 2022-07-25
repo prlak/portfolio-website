@@ -59,7 +59,7 @@ input {
   height: 50px;
   border: none;
   border-bottom: 1px solid black;
-  margin: 10px 0px;
+  margin: 20px 0px;
   font-size: 14px;
   padding-left: 10px;
 }
@@ -78,6 +78,7 @@ button {
   color: white;
   font-weight: 500;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 480px) {

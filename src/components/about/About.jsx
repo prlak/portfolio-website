@@ -5,7 +5,7 @@ import Data from "../../img/data.jpg"
 
 const About = () => {
   return (
-<div className="a">
+<div id='about' className="a">
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
@@ -29,7 +29,15 @@ const About = () => {
           Being a full stack developer I have aptitude to make simple yet effective web apps!
         </p>
         <div className="a-award">
-          {/* <img src={Award} alt="" className="a-award-img" /> */}
+          <div className="a-award-texts">
+            <h4 className="a-award-title">What am I up-to now?</h4>
+            <p className="a-desc">
+              I will be pursuing my Master's in Data Science at University of Bristol during fall'22.
+               I am actively looking for internship opportunities as a Data Scientist, Data Analyst or Machine Learning Engineer at the United Kingdom.
+            </p>
+          </div>
+        </div>
+        <div className="a-award">
           <div className="a-award-texts">
             <h4 className="a-award-title">Fun facts!</h4>
             <p className="a-desc">

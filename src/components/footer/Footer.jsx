@@ -27,15 +27,15 @@ const Footer = () => {
               <div class="footer-left">
 
                   <p class="footer-links">
-                      <a class="link-1" href="#">Home</a>
+                      <a class="link-1" href="#intro">Home</a>
 
-                      <a href="#">Intro</a>
+                      <a href="#intro">Intro</a>
 
-                      <a href="#">About</a>
+                      <a href="#about">About</a>
 
-                      <a href="#">Projects</a>
+                      <a href="#project">Projects</a>
 
-                      <a href="#">Contact</a>
+                      <a href="#contact">Contact</a>
                   </p>
 
                   <p class="footer-copy">P H Lakshmi &copy; 2022</p>

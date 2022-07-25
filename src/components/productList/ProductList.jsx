@@ -4,7 +4,7 @@ import { products } from "../../data";
 
 const ProductList = () => {
   return (
-    <div className="pl">
+    <div id="project" className="pl">
       <div className="pl-texts">
         <h1 className="pl-title">Curiosity to dive-in and dig deep!</h1>
         <p className="pl-desc">
