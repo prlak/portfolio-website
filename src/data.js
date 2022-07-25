@@ -15,8 +15,10 @@ export const products = [
   },
   {
     id: 3,
-    img: "",
-    link: "http://lama.dev",
+    img: "https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/08/Zomato-Machine-Learning-1-2048x1152.jpg",
+    title: "Zomato Delivery Analysis",
+    desp: "Using Zomato restaurants data to understand the customer's favourites!",
+    link: "",
   },
   {
     id: 4,
