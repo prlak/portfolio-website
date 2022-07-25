@@ -1,6 +1,6 @@
 {
   "name": "new",
-  "homepage": "https://prlak.github.io/work-portfolio/",
+  "homepage": "https://prlak.github.io/portfolio-webiste/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d public",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
