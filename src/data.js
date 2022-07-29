@@ -39,6 +39,6 @@ export const products = [
     img: "https://www.clearpeaks.com/wp-content/uploads/2021/11/feature-engineering-header.png",
     link: "https://github.com/prlak/Featurization",
     title: "Featurisation and Model Tuning",
-    desp: "Employing ensemble and unsupervised learning to build a prediction model to identify Pass/Fail process at a semiconductor company.",
+    desp: "Employing ensemble and USL to build a prediction model to identify Pass/Fail process at a semiconductor company.",
   },
 ];
