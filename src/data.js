@@ -25,14 +25,14 @@ export const products = [
     img: "https://carhirebaku.com/wp-content/uploads/2020/05/Industry-Standard-Car-Classification-Code.jpg",
     link: "https://github.com/prlak/unsupervised-learning-cars",
     title: "Vehicle Classification",
-    desp: "Classifying vehicles into different categories base don various features such a body height, ground clearance etc, using Unsupervised Learning",
+    desp: "Classifying vehicles into different categories based on various features using Unsupervised Learning",
   },
   {
     id: 5,
     img: "https://static.businessworld.in/article/article_extra_large_image/1587134000_Cc48tt_the_future_of_e_commerce.jpg",
     link: "https://github.com/prlak/recommendation-system",
     title: "Recommendation System",
-    desp: "Recommend mobile phones to a user, which are most popular using popularity based recommendation system and collaborative filtering.",
+    desp: "Recommend mobile phones to a user, using popularity based recommendation system and collaborative filtering.",
   },
   {
     id: 6,

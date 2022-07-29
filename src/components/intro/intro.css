@@ -53,6 +53,7 @@
     transform: translateY(-150px);
   }
   100% {
+  line-height: 1.8;
     transform: translateY(-200px);
   }
 }
